@@ -8,7 +8,7 @@ class Solution:
         result = [0] * length
         for i in range(length):
             for j in range(length):
-                if j is not i:
+                if j != i:
                     if nums[j] == 0:
                         result[i] = 0
                         break
